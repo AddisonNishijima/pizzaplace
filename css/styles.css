@@ -90,6 +90,9 @@ button {
   display: none;
 }
 /*Total Section*/
+#total {
+  display: none;
+}
 #total h4 {
   text-align: center;
 }

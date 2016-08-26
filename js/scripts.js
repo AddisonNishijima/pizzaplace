@@ -13,7 +13,6 @@ function Pizza(size, sauce, cheese, meat1, meat2, veggie1, veggie2) {
 $(document).ready(function(){
   $("form").submit(function(event) {
     event.preventDefault();
-
     var inputtedSize = parseInt($("#size").val());
     var inputtedSauce = parseInt($("#sauce").val());
     var inputtedCheese = parseInt($("#cheese").val());
@@ -29,6 +28,7 @@ $(document).ready(function(){
     var veggieChoiceOne = $( "#veggie1 option:selected" ).text();
     var veggieChoiceTwo = $( "#veggie2 option:selected" ).text();
     var newPrice = (inputtedSize + inputtedSauce + inputtedCheese + inputtedMeatOne + inputtedMeattwo + inputtedVeggieOne + inputtedVeggieTwo);
+    $("#total").fadeIn();
     $(".total").text(" " + "$" + newPrice);
     $(".size").text(" " + sizeChoice);
     $(".sauce").text(" " + sauceChoice);
@@ -37,13 +37,5 @@ $(document).ready(function(){
     $(".meat2").text(" " + meatChoiceTwo);
     $(".veggie1").text(" " + veggieChoiceOne);
     $(".veggie2").text(" " + veggieChoiceTwo);
-  });
-   $("#delivery").click(function() {
-    $("#name").show();
-    $("#street1").show();
-    $("#street2").show();
-    $("input#name").show();
-    $("input#street1").show();
-    $("input#street2").show();
   });
 });
