@@ -30,6 +30,7 @@ body {
 }
 
 #about h3 {
+  text-decoration: underline;
   text-align: center;
   font-family: 'Sofia', cursive;
   color: #A99781;
@@ -37,11 +38,15 @@ body {
   font-size: 25px;
   margin-bottom: 10px;
 }
+#about p {
+  color: #D4CBC0;
+  text-shadow: 5px 5px 5px black;
+}
 
 #about h4 {
   margin-top: 10px;
   font-family: 'Sofia', cursive;
-  color: #A99781;
+  color: #D4CBC0;
   text-shadow: 5px 5px 5px black;
   font-size: 20px;
 }
