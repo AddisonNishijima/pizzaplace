@@ -1,8 +1,11 @@
+/*Body Section*/
 body {
   background-image: url(../img/pizzaoven.jpg);
-  background-repeat: repeat;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: black;
 }
+/*Jumbotron Section*/
 .jumbotron {
   text-align: center;
   font-family: 'Sofia', cursive;
@@ -10,24 +13,50 @@ body {
   color: #A99781;
   border: dotted #CA7D2D 5px;
   margin-bottom: 20px;
+  background-color: black;
 }
+/*About Section*/
 #about {
   float: left;
-  margin-right: 350px;
   height: 800px;
   border: dotted #CA7D2D 5px;
   width: 10%;
   padding: 10px 10px 10px 10px;
   text-align: center;
 }
-h3 {
+
+#about h3 {
+  text-align: center;
   font-family: 'Sofia', cursive;
   color: #A99781;
   text-shadow: 5px 5px 5px black;
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
-h4 {
+#about h4 {
+  margin-top: 10px;
+  font-family: 'Sofia', cursive;
+  color: #A99781;
+  text-shadow: 5px 5px 5px black;
+  font-size: 20px;
+}
+/*Container Section*/
+.container {
+  float: right;
+  width: 80%;
+}
+.container h3 {
+  text-align: center;
+  font-family: 'Sofia', cursive;
+  color: #A99781;
+  text-shadow: 5px 5px 5px black;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.container h4 {
+  margin-top: 20px;
   font-family: 'Sofia', cursive;
   color: #A99781;
   text-shadow: 5px 5px 5px black;
