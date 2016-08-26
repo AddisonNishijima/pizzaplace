@@ -5,17 +5,20 @@ body {
 }
 .jumbotron {
   text-align: center;
-  color: blanchedalmond;
-  border: dotted blanchedalmond 5px;
+  color: #A99781;
+  border: dotted #CA7D2D 5px;
   margin-bottom: 20px;
 }
 #about {
   float: left;
-  margin-right: 450px;
+  margin-right: 420px;
   height: 600px;
-  border: dotted blanchedalmond 5px;
+  border: dotted #CA7D2D 5px;
   width: 10%;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 h3,h4{
-color: blanchedalmond;
+color: #A99781;
+text-shadow: 5px 5px 5px black;
 }
