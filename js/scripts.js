@@ -13,6 +13,7 @@ function Pizza(size, sauce, cheese, meat1, meat2, veggie1, veggie2) {
 $(document).ready(function(){
   $("form").submit(function(event) {
     event.preventDefault();
+    $("form").fadeOut();
     var inputtedSize = parseInt($("#size").val());
     var inputtedSauce = parseInt($("#sauce").val());
     var inputtedCheese = parseInt($("#cheese").val());
