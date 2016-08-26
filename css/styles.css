@@ -10,14 +10,17 @@ body {
   background-image: url(../img/pizzaoven.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-  text-align: center;
-  text-shadow: 5px 5px 5px black;
-  font-family: 'Sofia', cursive;
-  font-size: 30px;
-  color: #A99781;
   border: dotted #CA7D2D 5px;
   margin-bottom: 20px;
   background-color: black;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  text-shadow: 10px 10px 10px black;
+  font-family: 'Sofia', cursive;
+  font-size: 80px;
+  color: #A99781;
 }
 /*About Section*/
 #about {
