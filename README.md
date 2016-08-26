@@ -25,6 +25,7 @@ _No known bugs_
 ## Support and contact details
 
 _If you have any comments, questions, or concerns please contact Addison Nishijima:_
+
 *_Email: addison.nishijima@gmail.com_
 *_Github Username: AddisonNishijima_
 
