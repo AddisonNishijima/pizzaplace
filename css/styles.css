@@ -1,0 +1,21 @@
+body {
+  background-image: url(../img/pizzaoven.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+}
+.jumbotron {
+  text-align: center;
+  color: blanchedalmond;
+  border: dotted blanchedalmond 5px;
+  margin-bottom: 20px;
+}
+#about {
+  float: left;
+  margin-right: 450px;
+  height: 600px;
+  border: dotted blanchedalmond 5px;
+  width: 10%;
+}
+h3,h4{
+color: blanchedalmond;
+}
