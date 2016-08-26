@@ -7,7 +7,11 @@ body {
 }
 /*Jumbotron Section*/
 .jumbotron {
+  background-image: url(../img/pizzaoven.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
   text-align: center;
+  text-shadow: 5px 5px 5px black;
   font-family: 'Sofia', cursive;
   font-size: 30px;
   color: #A99781;
@@ -43,7 +47,7 @@ body {
 }
 /*Container Section*/
 .container {
-  float: right;
+  padding: 0px 100px 100px 100px;
   width: 80%;
 }
 .container h3 {
