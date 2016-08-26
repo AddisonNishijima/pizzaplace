@@ -38,4 +38,12 @@ $(document).ready(function(){
     $(".veggie1").text(" " + veggieChoiceOne);
     $(".veggie2").text(" " + veggieChoiceTwo);
   });
+   $("#delivery").click(function() {
+    $("#name").show();
+    $("#street1").show();
+    $("#street2").show();
+    $("input#name").show();
+    $("input#street1").show();
+    $("input#street2").show();
+  });
 });

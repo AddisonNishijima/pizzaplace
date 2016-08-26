@@ -77,6 +77,18 @@ body {
 button {
   margin-top: 10px;
 }
+/*Address Section*/
+#name {
+  display: none;
+}
+
+#street1 {
+  display: none;
+}
+
+#street2 {
+  display: none;
+}
 /*Total Section*/
 #total h4 {
   text-align: center;
