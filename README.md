@@ -26,16 +26,16 @@ _No known bugs_
 
 _If you have any comments, questions, or concerns please contact Addison Nishijima:_
 
-*Email: addison.nishijima@gmail.com
-*Github Username: AddisonNishijima
+1. Email: addison.nishijima@gmail.com
+2. ithub Username: AddisonNishijima
 
 ## Technologies Used
 
-*HTML
-*CSS
-*Bootstrap
-*JavaScript
-*jQuery
+1. HTML
+2. CSS
+3. Bootstrap
+4. JavaScript
+5. jQuery
 
 ### License
 
