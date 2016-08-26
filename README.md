@@ -13,8 +13,8 @@
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
+* _Open terminal_
+* _Enter "git clone https://github.com/AddisonNishijima/pizzaplace.git" into terminal_
 
 _All required files are included with the download_
 
@@ -31,9 +31,13 @@ _If you have any comments, questions, or concerns please contact Addison Nishiji
 ## Technologies Used
 
 *_HTML_
+
 *_CSS_
+
 *_Bootstrap_
+
 *_JavaScript_
+
 *_jQuery_
 
 ### License
