@@ -27,7 +27,7 @@ _No known bugs_
 _If you have any comments, questions, or concerns please contact Addison Nishijima:_
 
 1. Email: addison.nishijima@gmail.com
-2. ithub Username: AddisonNishijima
+2. Github Username: AddisonNishijima
 
 ## Technologies Used
 
