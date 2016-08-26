@@ -6,10 +6,10 @@
 
 ## Description
 
-*Behavior 1, the user can select the size of a pizza
-*Behavior 2, The user can select the toppings on the pizza
-*Behavior 3, Based on the size of pizza and toppings the cost of pizza is calculated
-*Behavior 4, The total cost for the pizza is displayed for the user
+* Behavior 1, the user can select the size of a pizza
+* Behavior 2, The user can select the toppings on the pizza
+* Behavior 3, Based on the size of pizza and toppings the cost of pizza is calculated
+* Behavior 4, The total cost for the pizza is displayed for the user
 
 ## Setup/Installation Requirements
 
