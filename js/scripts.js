@@ -29,7 +29,7 @@ $(document).ready(function(){
     var veggieChoiceOne = $( "#veggie1 option:selected" ).text();
     var veggieChoiceTwo = $( "#veggie2 option:selected" ).text();
     var newPrice = (inputtedSize + inputtedSauce + inputtedCheese + inputtedMeatOne + inputtedMeattwo + inputtedVeggieOne + inputtedVeggieTwo);
-    $(".total").text(" " + newPrice);
+    $(".total").text(" " + "$" + newPrice);
     $(".size").text(" " + sizeChoice);
     $(".sauce").text(" " + sauceChoice);
     $(".cheese").text(" " + cheeseChoice);

@@ -74,3 +74,38 @@ body {
 button {
   margin-top: 10px;
 }
+/*Total Section*/
+#total h4 {
+  text-align: center;
+}
+/*span classes*/
+.total {
+  color: 	#CA7D2D;
+}
+.size {
+  color: 	#CA7D2D;
+}
+
+.sauce {
+  color: 	#CA7D2D;
+}
+
+.cheese {
+  color: 	#CA7D2D;
+}
+
+.meat1 {
+  color: 	#CA7D2D;
+}
+
+.meat2 {
+  color: 	#CA7D2D;
+}
+
+.veggie1 {
+  color: 	#CA7D2D;
+}
+
+.veggie2 {
+  color: 	#CA7D2D;
+}
