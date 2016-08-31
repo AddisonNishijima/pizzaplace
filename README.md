@@ -1,15 +1,20 @@
 # _PizzaPlace_
 
-#### _A simple webpage where the user can select the size and toppings for a pizza and their pizza price will be calculated, 8/26/2016_
+#### _A simple webpage where the user can select the size, sauce, and toppings for a pizza and their pizza price will be calculated, 8/26/2016_
 
 #### By _**Addison Nishijima**_
 
 ## Description
 
-* Behavior 1, the user can select the size of a pizza
-* Behavior 2, The user can select the toppings on the pizza
-* Behavior 3, Based on the size of pizza and toppings the cost of pizza is calculated
-* Behavior 4, The total cost for the pizza is displayed for the user
+* Behavior 1, the webpage calculates the price of pizza based on inputs
+* Example Input 1: 10inch Small (6 slices)
+* Example Output 1: $5
+
+* Example Input 2: 12inch Medium (8 slices), Traditional Tomato Sauce, Ridiculous Cheese
+* Example Output 2: $13
+
+* Example Input 3: 14inch Large (10 slices), Blazin BBQ', Normal Cheese, Sausage, Pepperoni, Olives, Mushrooms
+* Example Output 3: $19
 
 ## Setup/Installation Requirements
 
