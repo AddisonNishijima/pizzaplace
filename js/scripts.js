@@ -7,7 +7,11 @@ function Pizza(size, sauce, cheese, meat1, meat2, veggie1, veggie2) {
   this.meat2 = meat2;
   this.veggie1 = veggie1;
   this.veggie2 = veggie2;
+  this.price = 0;
 }
+  Pizza.prototype.pizzaPrice = function() {
+    return pizzaPrice = inputtedSize + inputtedSauce + inputtedCheese + inputtedMeatOne + inputtedMeattwo + inputtedVeggieOne + inputtedVeggieTwo + 0;
+  }
 
 //user interface logic
 $(document).ready(function(){
@@ -28,9 +32,11 @@ $(document).ready(function(){
     var meatChoiceTwo = $( "#meat2 option:selected" ).text();
     var veggieChoiceOne = $( "#veggie1 option:selected" ).text();
     var veggieChoiceTwo = $( "#veggie2 option:selected" ).text();
-    var newPrice = (inputtedSize + inputtedSauce + inputtedCheese + inputtedMeatOne + inputtedMeattwo + inputtedVeggieOne + inputtedVeggieTwo);
+    var new Pizza = Pizza();
+    var newPizza = (inputtedSize + inputtedSauce + inputtedCheese + inputtedMeatOne + inputtedMeattwo + inputtedVeggieOne + inputtedVeggieTwo);
+    Pizza.pizzaPrice(newPizza);
     $("#total").fadeIn();
-    $(".total").text(" " + "$" + newPrice);
+    $(".total").text(" " + "$" + newPizza);
     $(".size").text(" " + sizeChoice);
     $(".sauce").text(" " + sauceChoice);
     $(".cheese").text(" " + cheeseChoice);
@@ -39,5 +45,4 @@ $(document).ready(function(){
     $(".veggie1").text(" " + veggieChoiceOne);
     $(".veggie2").text(" " + veggieChoiceTwo);
   });
-
 });
