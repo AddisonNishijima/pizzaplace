@@ -39,4 +39,5 @@ $(document).ready(function(){
     $(".veggie1").text(" " + veggieChoiceOne);
     $(".veggie2").text(" " + veggieChoiceTwo);
   });
+
 });
